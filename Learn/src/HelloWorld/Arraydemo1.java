@@ -1,0 +1,18 @@
+package HelloWorld;
+
+public class Arraydemo1 {
+    public static void main(String[] args) {
+        int[] arr={1,2,3,4,5,6,7,8,9,10};
+        int cout=0;
+
+        for (int i = 0; i < arr.length; i++) {
+
+            if (arr[i] % 3 == 0){
+                System.out.println(arr[i]);
+                cout++;
+            }
+
+        }
+        System.out.println("能被3整除的有" + cout + "个");
+    }
+}
