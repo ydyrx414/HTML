@@ -148,7 +148,7 @@ public class StudentSystem {
         for (int i = 0; i < list.size(); i++) {
             Student stu = list.get(i);
             String sid = stu.getId();
-            if (sid.equals(id)){
+            if (sid.equals(id)) {
                 return true;
             }
         }

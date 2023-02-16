@@ -73,11 +73,7 @@ public class Student {
         return address;
     }
 
-    /**
-     * 设置
-     */
     public void setAddress(String address) {
-        this.address = this.address;
+        this.address = address;
     }
-
 }
